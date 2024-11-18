@@ -1,0 +1,36 @@
+.Ingreso{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border: 3px solid rgb(71, 8, 24);
+}
+.main {
+    position: absolute;
+    background-color: rgba(89, 96, 97, 0.685);
+    height: 430px;
+    width: 300px;
+    /*Centra el texto sin importar el tamaño de la ventana*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.SIAPE{
+    padding: 3%;
+    /*Alinear un elemento según el ancho y alto de la pantalla (viewport)*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Subtitulo{
+    justify-content: center;
+    padding: 3%;
+    text-align: center;  
+}
+.Validacion{
+    padding: 3%;
+}
+.button{
+    padding: 3%;
+}
